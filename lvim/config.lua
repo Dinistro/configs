@@ -101,6 +101,8 @@ parser_config.mlir = {
   },
   filetype = "mlir",
 }
+
+require('nvim-autopairs').disable()
 --end
 
 
@@ -186,11 +188,11 @@ parser_config.mlir = {
 --   },
 -- }
 
--- lvim.plugins = {
---     {
---       "luisiacc/gruvbox-baby"
---     },
--- }
+lvim.plugins = {
+  {
+    "luisiacc/gruvbox-baby"
+  },
+}
 
 -- Autocommands (https://neovim.io/doc/user/autocmd.html)
 -- vim.api.nvim_create_autocmd("BufEnter", {
